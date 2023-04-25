@@ -8,5 +8,7 @@ func main(){
 	var student2 string = "student2" //stirng
 	var count int = 2 //int
 	fmt.Println("Welcom!")
+	ftm.Println("student name is: " student1)
+	ftm.Println("student name is: " student2)
 
 }

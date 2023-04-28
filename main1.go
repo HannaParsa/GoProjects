@@ -1,4 +1,4 @@
-//this is my project for learning go
+//this is my learning-project for learning go
 package main
 import("fmt")
 
@@ -15,8 +15,9 @@ func main(){
 	var grades =[...] string {"pass","fail"} 
 	//slice is like array but length can extend
 	var mySlice = [] string {"slice1"}
+	//append (alicename, param1...)
+	mySlice = append(mySlice,"slice2")
 	fmt.Println("Welcom!")
 	ftm.Println("student name is: " student1)
 	ftm.Println("student name is: " student2)
-
 }

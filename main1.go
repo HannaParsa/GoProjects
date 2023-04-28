@@ -20,4 +20,13 @@ func main(){
 	fmt.Println("Welcom!")
 	ftm.Println("student name is: " student1)
 	ftm.Println("student name is: " student2)
+	score1 := 9
+	acore2 := 13
+	//conditions
+	if( score1 < 10){
+       ftm.Println("you are failed")
+	}
+	else{
+		ftm.Println("you are pass")
+	}
 }

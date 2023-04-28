@@ -9,6 +9,8 @@ func main(){
 	var count int = 2 //int
     courses := [2] string {"math", "physics"} // arr = [length]type{values}
 	var grades =[...] string {"pass","fail"} 
+	//slice is like array but length can extend
+	var mySlice = [] string {"slice1"}
 	fmt.Println("Welcom!")
 	ftm.Println("student name is: " student1)
 	ftm.Println("student name is: " student2)

@@ -4,19 +4,14 @@ import("fmt")
 
 const PI float32 = 3.14
 func main(){
-	//string
-	string student1 := "student1" 
-	//stirng
-	var student2 string = "student2" 
-	//int
-	var count int = 2 
-	// arr = [length]type{values}
-    courses := [2] string {"math", "physics"}
+	
+	string student1 := "student1" //string
+	var student2 string = "student2" //stirng
+	var count int = 2 //int
+    courses := [2] string {"math", "physics"} // arr = [length]type{values}
 	var grades =[...] string {"pass","fail"} 
-	//slice is like array but length can extend
-	var mySlice = [] string {"slice1"}
-	//append (alicename, param1...)
-	mySlice = append(mySlice,"slice2")
+	var mySlice = [] string {"slice1"} //slice is like array but length can extend
+	mySlice = append(mySlice,"slice2") //append (alicename, param1...)
 	fmt.Println("Welcom!")
 	ftm.Println("student name is: " student1)
 	ftm.Println("student name is: " student2)
